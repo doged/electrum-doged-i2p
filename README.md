@@ -206,7 +206,9 @@ tunnel.7.type=sockstunnel
 
 * download python qt4: http://sourceforge.net/projects/pyqt/files/PyQt4/PyQt-4.11.3/PyQt4-4.11.3-gpl-Py2.7-Qt4.8.6-x64.exe
 
-* then in ms visual studio command prompt, go into the directory electrum-doged:
+* then open start folder, type "cmd" and hit enter. 
+ 
+* then, in command prompt, go into the directory electrum-doged:
 
 pyrcc4 icons.qrc -o gui/qt/icons_rc.py
 
