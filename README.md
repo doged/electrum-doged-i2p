@@ -221,11 +221,17 @@ py setup.py install
 ------------------
 
 (if you dont already have macports)
+
 curl -O https://distfiles.macports.org/MacPorts/MacPorts-2.3.3.tar.bz2
+
 tar xf MacPorts-2.3.3.tar.bz2
+
 cd MacPorts-2.3.3/
+
  ./configure
+ 
 make
+
 sudo make install
 
 install python if you dont already have it.
