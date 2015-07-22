@@ -219,7 +219,8 @@ py setup.py install
 py electrum-doged
 
 
-1c Getting started with Mac OSX
+1.c) GETTING STARTED WITH MAC OSX
+------------------
 
 pip intall slowaes
 
