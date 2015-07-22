@@ -224,6 +224,8 @@ install python if you dont already have it.
 
 https://www.python.org/ftp/python/2.7.10/python-2.7.10-macosx10.6.pkg
 
+sudo easy_install pip
+
 pip install slowaes
 
 python setup.py build
