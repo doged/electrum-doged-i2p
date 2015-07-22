@@ -219,6 +219,17 @@ py setup.py install
 py electrum-doged
 
 
+1c Getting started with Mac OSX
+
+pip intall slowaes
+
+python setup.py build
+
+Modify electrum-doged and change python2 to python in the first line
+
+sudo python setup.py install
+
+The default torrc that came with the TorBrowser has 9150 as a SOCKS proxy instead of 9050, change it to match 9050
 
 2. HOW OFFICIAL PACKAGES ARE CREATED
 ------------------------------------
