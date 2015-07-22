@@ -222,6 +222,10 @@ py electrum-doged
 1.c) GETTING STARTED WITH MAC OSX
 ------------------
 
+install python if you dont already have it.
+
+https://www.python.org/ftp/python/2.7.10/python-2.7.10-macosx10.6.pkg
+
 pip intall slowaes
 
 python setup.py build
