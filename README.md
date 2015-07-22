@@ -101,7 +101,7 @@ i2prouter restart
 
 sudo apt-get install git pyqt4-dev-tools python-pip python-dev python-slowaes
 
-sudo pip install pyasn1 pyasn1-modules pbkdf2 tlslite qrcode
+sudo pip install pyasn1 pyasn1-modules pbkdf2 tlslite qrcode ecdsa slowaes
 
 git clone https://github.com/doged/electrum-doged-i2p && cd electrum-doged-i2p
 
@@ -301,6 +301,8 @@ tunnel.7.startOnLoad=true
 tunnel.7.type=sockstunnel
 
 then restart i2p, and 
+
+sudo pip install pyasn1 pyasn1-modules pbkdf2 tlslite qrcode ecdsa slowaes
 
 python electrum-doged
 
