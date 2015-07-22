@@ -300,7 +300,7 @@ tunnel.7.type=sockstunnel
 
 then restart i2p, and 
 
-py electrum-doged
+python electrum-doged
 
 2. HOW OFFICIAL PACKAGES ARE CREATED
 ------------------------------------
