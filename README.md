@@ -216,8 +216,6 @@ py -m pip install pip pyasn1 pyasn1-modules pbkdf2 tlslite qrcode ecdsa ltc_scry
 
 py setup.py install
 
-py electrum-doged
-
 
 1.c) GETTING STARTED WITH MAC OSX
 ------------------
@@ -300,6 +298,9 @@ tunnel.7.startOnLoad=true
 
 tunnel.7.type=sockstunnel
 
+then restart i2p, and 
+
+py electrum-doged
 
 2. HOW OFFICIAL PACKAGES ARE CREATED
 ------------------------------------
