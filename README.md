@@ -208,7 +208,7 @@ tunnel.7.type=sockstunnel
 
 * then open start folder, type "cmd" and hit enter. 
  
-* then, in command prompt, go into the directory where you unzipped electrum-dogedi2p-master:
+* then, in command prompt, go into the directory where you unzipped electrum-doged-i2p-master:
 
 pyrcc4 icons.qrc -o gui/qt/icons_rc.py
 
