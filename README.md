@@ -234,7 +234,72 @@ Modify electrum-doged and change python2 to python in the first line
 
 sudo python setup.py install
 
-The default torrc that came with the TorBrowser has 9150 as a SOCKS proxy instead of 9050, change it to match 9050
+then modify the i2ptunnel.config file in the i2p directory and add the following to the end of it:
+
+tunnel.7.name=dogedsock9000
+
+tunnel.7.option.i2cp.closeIdleTime=1800000
+
+tunnel.7.option.i2cp.closeOnIdle=false
+
+tunnel.7.option.i2cp.delayOpen=false
+
+tunnel.7.option.i2cp.destination.sigType=0
+
+tunnel.7.option.i2cp.newDestOnResume=false
+
+tunnel.7.option.i2cp.reduceIdleTime=1200000
+
+tunnel.7.option.i2cp.reduceOnIdle=false
+
+tunnel.7.option.i2cp.reduceQuantity=1
+
+tunnel.7.option.i2p.streaming.connectDelay=0
+
+tunnel.7.option.i2ptunnel.httpclient.allowInternalSSL=false
+
+tunnel.7.option.i2ptunnel.httpclient.sendAccept=false
+
+tunnel.7.option.i2ptunnel.httpclient.sendReferer=false
+
+tunnel.7.option.i2ptunnel.httpclient.sendUserAgent=false
+
+tunnel.7.option.i2ptunnel.useLocalOutproxy=true
+
+tunnel.7.option.inbound.backupQuantity=0
+
+tunnel.7.option.inbound.length=3
+
+tunnel.7.option.inbound.lengthVariance=0
+
+tunnel.7.option.inbound.nickname=doged
+
+tunnel.7.option.inbound.quantity=2
+
+tunnel.7.option.outbound.backupQuantity=0
+
+tunnel.7.option.outbound.length=3
+
+tunnel.7.option.outbound.lengthVariance=0
+
+tunnel.7.option.outbound.nickname=doged
+
+tunnel.7.option.outbound.quantity=2
+
+tunnel.7.option.outproxyAuth=false
+
+tunnel.7.option.persistentClientKey=false
+
+tunnel.7.option.useSSL=false
+
+tunnel.7.privKeyFile=i2ptunnel7-privKeys.dat
+
+tunnel.7.sharedClient=false
+
+tunnel.7.startOnLoad=true
+
+tunnel.7.type=sockstunnel
+
 
 2. HOW OFFICIAL PACKAGES ARE CREATED
 ------------------------------------
