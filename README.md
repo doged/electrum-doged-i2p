@@ -302,7 +302,7 @@ tunnel.7.type=sockstunnel
 
 then restart i2p, and 
 
-sudo pip install pyasn1 pyasn1-modules pbkdf2 tlslite qrcode ecdsa slowaes
+sudo pip install pyasn1 pyasn1-modules pbkdf2 tlslite qrcode ecdsa slowaes requests
 
 python electrum-doged
 
